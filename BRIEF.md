@@ -55,7 +55,7 @@ Use `Ropa Sans` as the typeface for the text, which is available through [Google
 
 Use the SVG included in this directory for the arrow icons
 
-![arrow](./arrow.svg)
+![arrow](./public/arrow.svg)
 
 ## How it should work
 
