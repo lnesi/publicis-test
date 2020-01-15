@@ -9,7 +9,7 @@ export const Image = ({ webformatURL, tags }) => {
         className="App__Carousel__Images__Item__Image"
         style={{ backgroundImage: `url(${webformatURL})` }}
       >
-        <img src={webformatURL} alt={tags} />
+        <img src={webformatURL} alt={tags} data-testid="carousel-item-image" />
       </div>
       <h3>{tags}</h3>
     </div>
@@ -101,7 +101,7 @@ export default function Carousel({ images }) {
   }, [dispatch]);
 
   return (
-    <div className="App__Carousel">
+    <div className="App__Carousel" data-testid="Carousel">
       <div className="App__Carousel__Images">
         {state.page.map((image, i) => {
           return (

@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots Carousel componsnt match snapshot 1`] = `
+<div>
+  <div
+    class="App__Carousel"
+    data-testid="Carousel"
+  >
+    <div
+      class="App__Carousel__Images"
+    >
+      <div
+        class="App__Carousel__Images__Item"
+      >
+        <div
+          class="App__Carousel__Images__Item__Image"
+          style="background-image: url(http://www.test.com/image_1.jpg);"
+        >
+          <img
+            alt="test tag 1"
+            data-testid="carousel-item-image"
+            src="http://www.test.com/image_1.jpg"
+          />
+        </div>
+        <h3>
+          test tag 1
+        </h3>
+      </div>
+      <div
+        class="App__Carousel__Images__Item"
+      >
+        <div
+          class="App__Carousel__Images__Item__Image"
+          style="background-image: url(http://www.test.com/image_2.jpg);"
+        >
+          <img
+            alt="test tag 2"
+            data-testid="carousel-item-image"
+            src="http://www.test.com/image_2.jpg"
+          />
+        </div>
+        <h3>
+          test tag 2
+        </h3>
+      </div>
+      <div
+        class="App__Carousel__Images__Item"
+      >
+        <div
+          class="App__Carousel__Images__Item__Image"
+          style="background-image: url(http://www.test.com/image_3.jpg);"
+        >
+          <img
+            alt="test tag 3"
+            data-testid="carousel-item-image"
+            src="http://www.test.com/image_3.jpg"
+          />
+        </div>
+        <h3>
+          test tag 3
+        </h3>
+      </div>
+    </div>
+    <div
+      class="App__Carousel__Controls"
+    >
+      <button
+        class="App__Carousel__Controls__Prev"
+        disabled=""
+      >
+        <span>
+          Prev
+        </span>
+        <svg>
+          arrow.svg
+        </svg>
+      </button>
+      <button
+        class="App__Carousel__Controls__Next"
+      >
+        <span>
+          Next
+        </span>
+        <svg>
+          arrow.svg
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`snapshots Image component match snapshot 1`] = `
+<div>
+  <div
+    class="App__Carousel__Images__Item"
+  >
+    <div
+      class="App__Carousel__Images__Item__Image"
+      style="background-image: url(http://www.test.com/image.jpg);"
+    >
+      <img
+        alt="test tag text"
+        data-testid="carousel-item-image"
+        src="http://www.test.com/image.jpg"
+      />
+    </div>
+    <h3>
+      test tag text
+    </h3>
+  </div>
+</div>
+`;
