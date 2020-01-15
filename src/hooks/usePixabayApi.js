@@ -6,7 +6,6 @@ export default function usePixabayApi(query) {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   useEffect(() => {
-    console.log(process.env);
     setLoading(true);
     fetch(
       `${PIXABAY_ROOT_URL}?key=${process.env.REACT_APP_PIXABAY_API_KEY}&image_type=photo&q=${query}`

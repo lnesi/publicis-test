@@ -1,0 +1,11 @@
+@import '../scss/variables';
+
+.App__header {
+  text-align: center;
+  padding: 1rem;
+  background-color: $bg-color;
+  h1 {
+    font-size: 2rem;
+    color: $fg-color;
+  }
+}
