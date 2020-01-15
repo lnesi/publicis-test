@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/publicis-test/static/css/main.3b4ebc4a.chunk.css",
+    "main.js": "/publicis-test/static/js/main.09635abc.chunk.js",
+    "main.js.map": "/publicis-test/static/js/main.09635abc.chunk.js.map",
+    "runtime-main.js": "/publicis-test/static/js/runtime-main.437ea657.js",
+    "runtime-main.js.map": "/publicis-test/static/js/runtime-main.437ea657.js.map",
+    "static/js/2.345e4392.chunk.js": "/publicis-test/static/js/2.345e4392.chunk.js",
+    "static/js/2.345e4392.chunk.js.map": "/publicis-test/static/js/2.345e4392.chunk.js.map",
+    "index.html": "/publicis-test/index.html",
+    "precache-manifest.91b193954a0a4536a2274cf2531f6545.js": "/publicis-test/precache-manifest.91b193954a0a4536a2274cf2531f6545.js",
+    "service-worker.js": "/publicis-test/service-worker.js",
+    "static/css/main.3b4ebc4a.chunk.css.map": "/publicis-test/static/css/main.3b4ebc4a.chunk.css.map",
+    "static/js/2.345e4392.chunk.js.LICENSE": "/publicis-test/static/js/2.345e4392.chunk.js.LICENSE",
+    "static/media/arrow.afa9a0f1.svg": "/publicis-test/static/media/arrow.afa9a0f1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.437ea657.js",
+    "static/js/2.345e4392.chunk.js",
+    "static/css/main.3b4ebc4a.chunk.css",
+    "static/js/main.09635abc.chunk.js"
+  ]
+}
